@@ -12,3 +12,9 @@ categories = ["compression", "api-bindings"]
 
 [dependencies]
 fastlz-sys = { version = "0.1", path = "./fastlz-sys" }
+thunder = "0.3.1"
+clap = "2.0"
+
+[[bin]]
+path = "src/main.rs"
+name = "fastlz"
